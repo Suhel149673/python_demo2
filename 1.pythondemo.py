@@ -45,7 +45,19 @@ print("Original string:", input_string)
 print("Reversed string:", reversed_string)
 
 #string operations examples
+#string concatination or addition
 str1="hello"
 str2="world"
 result = str1+ " "+ str2
 print(result)
+
+#string length
+str1= "Python is fun to learn"
+length = len(str1)
+print(length)
+
+#string slicing
+str1="python programming is learning by suhel"
+length = len(str1)
+print(length)
+print(str1[15:38])
