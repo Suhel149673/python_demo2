@@ -44,3 +44,8 @@ reversed_string = reverse_string(input_string)
 print("Original string:", input_string)
 print("Reversed string:", reversed_string)
 
+#string operations examples
+str1="hello"
+str2="world"
+result = str1+ " "+ str2
+print(result)
