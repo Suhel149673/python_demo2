@@ -61,3 +61,36 @@ str1="python programming is learning by suhel"
 length = len(str1)
 print(length)
 print(str1[15:38])
+
+# Creating Strings
+my_string = 'Hello, World!'
+another_string = "Python is awesome!"
+multi_line = """This
+is a 
+multi-line
+string"""
+
+# Accessing Characters
+print(my_string[0])  # Output: 'H'
+print(my_string[7])  # Output: 'W'
+print(my_string[3:7])  # Output: 'lo, '
+
+# String Methods
+print(my_string.lower())  # Output: 'hello, world!'
+print(my_string.upper())  # Output: 'HELLO, WORLD!'
+print(my_string.find('World'))  # Output: 7
+print(my_string.replace('Hello', 'Hi'))  # Output: 'Hi, World!'
+print(my_string.split(','))  # Output: ['Hello', ' World!']
+print('-'.join(['Hello', 'World']))  # Output: 'Hello-World'
+
+# String Formatting
+name = "Alice"
+age = 30
+print(f"My name is {name} and I am {age} years old.")
+print("My name is {} and I am {} years old.".format(name, age))
+
+# String Concatenation
+greeting = "Hello"
+audience = "World!"
+combined = greeting + " " + audience
+print(combined)  # Output: 'Hello World!'
